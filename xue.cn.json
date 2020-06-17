@@ -1,37 +1,106 @@
 {
-  "authors": 
-  [{
-    "avatar": "https://avatars2.githubusercontent.com/u/12784118?s=400&v=4",
-    "bio": "李大狗，持续在编程和区块链技术领域突破自我。",
-    "name": "李大狗",
-    "role": "origin"}],
-  "chapters": [
-    {"is_free":true, "path": "0_序言.ipynb", "title": "0 序言"},
-    {"is_free":true, "path": "1_Introduction_简介.ipynb", "title": "0 内容简介"},
-    {"is_free":true, "path": "2.1_Transaction_交易_电子货币的定义.ipynb", "title": "0 2.1 交易-电子货币的定义"},
-    {"is_free":true, "path": "2.2_Transaction_交易_交易链的难点.ipynb", "title": "0 2.2 交易-交易链的难点"},
-    {"is_free":true, "path": "3_TimeStamp_Server_时间戳服务器.ipynb", "title": "0 3 时间戳服务器-区块的链"},
-    {"is_free":true, "path": "4_Proof-of-Work_工作量证明.ipynb", "title": "0 4 工作量证明"},
-    {"is_free":true, "path": "5_Network_网络.ipynb", "title": "0 5 网络"},
-    {"is_free":true, "path": "6_Incentive_奖励.ipynb", "title": "0 6 激励"},
-    {"is_free":true, "path": "7_Reclaiming_Disk_Space_回收硬盘空间.ipynb", "title": "0 7 回收硬盘空间"},
-    {"is_free":true, "path": "8_Simplified_Payment_Verification_简化版支付确认.ipynb", "title": "0 8 简化版支付确认"},
-    {"is_free":true, "path": "9_Combining_and_Splitting_Value_值的组合与分割.ipynb", "title": "0 9 值的组合与分割"},
-    {"is_free":true, "path": "10_Privacy_隐私.ipynb", "title": "0 10 隐私"},
-    {"is_free":true, "path": "11_Calculations_计算.ipynb", "title": "0 11 计算"},
-    {"is_free":true, "path": "12_Conclusion_结论.ipynb", "title": "0 12 结论"},
-    {"is_free":true, "path": "【附】白皮书_原文+翻译+单词注释.ipynb", "title": "Z 附录A 白皮书_原文+翻译+单词注释"},
-    {"is_free":true, "path": "【附2】比特币相关网站.ipynb", "title": "Z 附录B 比特币相关网站"},
-    {"is_free":true, "path": "【附3】习题集.ipynb", "title": "Z 附录C 习题集"
-    }
-  ],
-  "cover": "https://img-cdn.xue.cn/cover_blockchain.jpg",
-  "description": "项目主页：https://bitcoin.doge.university\n可能你已经入门了 Python，可能你刚刚学完《自学是门手艺》。那么把这本教程当成你的第一个「进阶项目」吧！你能体会到编程作为「思考辅助工具」的巨大威力，并在技术的层面上了解比特币系统（区块链系统）。",
-  "name": "比特币极速入门指南",
-  "publish_at": "2019-10-20T00:00:00",
-  "license": "本书由作者 李大狗 授权",
-  "category": "区块链",
-  "programming_language": "区块链",
-  "toc_level": 2, 
-  "version": "0.5"
+    "authors": [
+        {
+            "avatar": "https://avatars2.githubusercontent.com/u/12784118?s=400&v=4",
+            "bio": "李大狗，持续在编程和区块链技术领域突破自我。",
+            "name": "李大狗",
+            "role": "origin"
+        }
+    ],
+    "category": "区块链",
+    "chapters": [
+        {
+            "is_free": true,
+            "path": "0_序言.ipynb",
+            "title": "0 序言"
+        },
+        {
+            "is_free": true,
+            "path": "1_Introduction_简介.ipynb",
+            "title": "0 内容简介"
+        },
+        {
+            "is_free": true,
+            "path": "2.1_Transaction_交易_电子货币的定义.ipynb",
+            "title": "0 2.1 交易-电子货币的定义"
+        },
+        {
+            "is_free": true,
+            "path": "2.2_Transaction_交易_交易链的难点.ipynb",
+            "title": "0 2.2 交易-交易链的难点"
+        },
+        {
+            "is_free": true,
+            "path": "3_TimeStamp_Server_时间戳服务器.ipynb",
+            "title": "0 3 时间戳服务器-区块的链"
+        },
+        {
+            "is_free": true,
+            "path": "4_Proof-of-Work_工作量证明.ipynb",
+            "title": "0 4 工作量证明"
+        },
+        {
+            "is_free": true,
+            "path": "5_Network_网络.ipynb",
+            "title": "0 5 网络"
+        },
+        {
+            "is_free": true,
+            "path": "6_Incentive_奖励.ipynb",
+            "title": "0 6 激励"
+        },
+        {
+            "is_free": true,
+            "path": "7_Reclaiming_Disk_Space_回收硬盘空间.ipynb",
+            "title": "0 7 回收硬盘空间"
+        },
+        {
+            "is_free": true,
+            "path": "8_Simplified_Payment_Verification_简化版支付确认.ipynb",
+            "title": "0 8 简化版支付确认"
+        },
+        {
+            "is_free": true,
+            "path": "9_Combining_and_Splitting_Value_值的组合与分割.ipynb",
+            "title": "0 9 值的组合与分割"
+        },
+        {
+            "is_free": true,
+            "path": "10_Privacy_隐私.ipynb",
+            "title": "0 10 隐私"
+        },
+        {
+            "is_free": true,
+            "path": "11_Calculations_计算.ipynb",
+            "title": "0 11 计算"
+        },
+        {
+            "is_free": true,
+            "path": "12_Conclusion_结论.ipynb",
+            "title": "0 12 结论"
+        },
+        {
+            "is_free": true,
+            "path": "【附】白皮书_原文+翻译+单词注释.ipynb",
+            "title": "Z 附录A 白皮书_原文+翻译+单词注释"
+        },
+        {
+            "is_free": true,
+            "path": "【附2】比特币相关网站.ipynb",
+            "title": "Z 附录B 比特币相关网站"
+        },
+        {
+            "is_free": true,
+            "path": "【附3】习题集.ipynb",
+            "title": "Z 附录C 习题集"
+        }
+    ],
+    "cover": "https://img-cdn.xue.cn/cover_blockchain.jpg",
+    "description": "项目主页：https://bitcoin.doge.university\n可能你已经入门了 Python，可能你刚刚学完《自学是门手艺》。那么把这本教程当成你的第一个「进阶项目」吧！你能体会到编程作为「思考辅助工具」的巨大威力，并在技术的层面上了解比特币系统（区块链系统）。",
+    "license": "本书由作者 李大狗 授权",
+    "name": "比特币极速入门指南",
+    "programming_language": "区块链",
+    "publish_at": "2019-10-20T00:00:00",
+    "toc_level": 2,
+    "version": "0.5"
 }
