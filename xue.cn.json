@@ -1,13 +1,4 @@
 {
- "authors": [
-  {
-   "avatar": "https://avatars2.githubusercontent.com/u/12784118?s=400&v=4",
-   "bio": "李大狗，持续在编程和区块链技术领域突破自我。",
-   "name": "李大狗",
-   "role": "origin"
-  }
- ],
- "category": "区块链，比特币",
  "chapters": [
   {
    "is_free": true,
@@ -100,7 +91,16 @@
  "license": "本书由作者 李大狗 授权",
  "name": "比特币极速入门指南",
  "programming_language": "无",
- "publish_at": "2019-10-20T00:00:00",
+ "category": "区块链",
+ "authors": [
+  {
+   "avatar": "https://avatars2.githubusercontent.com/u/12784118?s=400&v=4",
+   "bio": "李大狗，持续在编程和区块链技术领域突破自我。",
+   "name": "李大狗",
+   "role": "origin"
+  }
+ ],
+ "publish_at": "2019-10-20T00:00:03",
  "toc_level": 2,
  "version": "0.5"
 }
